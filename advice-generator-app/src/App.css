@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+  /* Primary */
+  --theme-light-cyan: hsl(193, 38%, 86%);
+  --theme-neon-green: hsl(150, 100%, 66%);
+
+  /* Neutral */
+  --theme-grayishblue: hsl(217, 19%, 38%);
+  --theme-dark-grayish-blue: hsl(217, 19%, 24%);
+  --theme-dark-blue: hsl(218, 23%, 16%);
+
+  --font-size-quote: 28px;
+  --font-theme-manrope: "Manrope";
+}
+
+.custom-page-background{
+  background-color: var(--theme-dark-blue);
+  font-family: var(--font-theme-manrope);
+}
+
+.custom-container{
+  background-color: var(--theme-dark-grayish-blue);
+  width: 520px;
+}
+
+.advice-header-custom{
+  color: var(--theme-neon-green);
+  letter-spacing: 2px;
+}
+
+.advice-quote-custom{
+  color: var(--theme-light-cyan);
+  font-size: var(--font-size-quote);
+}
+
+#random-advice-button{
+  background-color: var(--theme-neon-green);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--theme-light-cyan);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
