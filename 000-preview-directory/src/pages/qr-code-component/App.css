@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  /* Primary */
+  --theme-white: hsl(0, 0%, 100%);
+  --theme-light-gray: hsl(212, 45%, 89%);
+  --theme-grayish-blue: hsl(220, 15%, 55%);
+  --theme-dark-blue: hsl(218, 44%, 22%);
+
+  --font-size: 15px;
+  --font-theme-outfit: "Outfit";
+}
+
+.qr-code-custom-page-background{
+  background-color: var(--theme-light-gray);
+  font-family: var(--font-theme-outfit);
+}
+
+.qr-code-custom-card-background{
+  background-color: var(--theme-white);
+}
+
+.qr-code-custom-text-color-grayish-blue{
+  color: var(--theme-grayish-blue);
+  font-size: var(--font-size);
+  line-height: 20px;
+}
+
+.qr-code-custom-text-color-dark-blue{
+  color: var(--theme-dark-blue);
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: underline;
+}
