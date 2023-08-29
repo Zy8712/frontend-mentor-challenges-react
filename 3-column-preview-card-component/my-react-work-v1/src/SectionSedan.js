@@ -4,7 +4,7 @@ import Sedan_Image from "./assets/icon-sedans.svg";
 function SectionSedan() {
     return (
         <>
-            <div className="w-1/3 h-full bg-theme-bright-orange">
+            <div className="sm:w-1/3 sm:h-full w-full h-1/3 bg-theme-bright-orange">
                 <div className="m-10">
                     <img src={Sedan_Image} alt="sedan_image" />
                     <h2 className="mt-5 mb-5 uppercase text-[42px] text-theme-very-light-gray font-theme-shoulders font-bold">Sedans</h2>

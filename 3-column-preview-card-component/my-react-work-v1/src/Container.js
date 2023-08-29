@@ -6,7 +6,7 @@ import SectionLuxury from './SectionLuxury';
 function Container() {
     return (
         <>
-            <div className="w-[864px] h-[460px] flex rounded-xl overflow-hidden">
+            <div className="sm:w-[864px] sm:h-[460px] w-[288px] h-[1380px] flex sm:flex-row flex-col rounded-xl overflow-hidden">
                 <SectionSedan />
                 <SectionSUV />
                 <SectionLuxury />

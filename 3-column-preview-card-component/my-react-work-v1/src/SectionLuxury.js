@@ -4,7 +4,7 @@ import Luxary_Image from "./assets/icon-luxury.svg";
 function SectionLuxury() {
     return (
         <>
-            <div className="w-1/3 h-full bg-theme-very-dark-cyan">
+            <div className="sm:w-1/3 sm:h-full w-full h-1/3 bg-theme-very-dark-cyan">
                 <div className="m-10">
                     <img src={Luxary_Image} alt="luxary_image" />
                     <h2 className="mt-5 mb-5 uppercase text-[42px] text-theme-very-light-gray font-theme-shoulders font-bold">Luxary</h2>
