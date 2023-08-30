@@ -3,8 +3,8 @@ import './App.css';
 function TopSection() {
     return (
         <>
-            <div className="w-full h-[45%] m-0 p-0 ">
-                <div className="mt-11 ml-10 mr-20 mb-0">
+            <div className="w-full sm:h-[45%] h-[36%] m-0 p-0 ">
+                <div className="sm:mt-11 mt-7 sm:ml-10 ml-6 sm:mr-20 mr-6 mb-0">
                     <h1 className="text-theme-cyan font-bold text-2xl">Join our community</h1>
                     <h2 className="text-theme-bright-yellow font-bold text-lg mt-4 mb-3">30-day, hassle-free money back guarantee</h2>
                     <p className="text-theme-grayish-blue text-base leading-8">

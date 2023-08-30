@@ -6,7 +6,7 @@ import BottomRightSection from "./BottomRightSection";
 function BottomSection() {
   return (
     <>
-      <div className="w-full h-[55%] flex flex-row ">
+      <div className="w-full sm:h-[55%] h-[64%] flex sm:flex-row flex-col ">
         <BottomLeftSection />
         <BottomRightSection />
       </div>
