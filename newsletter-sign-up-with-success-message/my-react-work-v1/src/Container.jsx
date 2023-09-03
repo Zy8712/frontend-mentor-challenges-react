@@ -6,12 +6,12 @@ function Container({ toggleSuccessBox, handleEmailChange }) {
 
   return (
     <>
-      <div className="w-[850px] h-[580px] bg-theme-white rounded-[30px]">
-        <div className=" w-[802px] h-[532px] flex m-6">
-          <div className="w-1/2 h-full">
+      <div className="sm:w-[850px] sm:h-[580px] w-full h-full bg-theme-white sm:rounded-[30px]">
+        <div className=" sm:w-[802px] sm:h-[532px] w-full h-full flex sm:flex-row flex-col-reverse sm:m-6">
+          <div className="sm:w-1/2 sm:h-full w-full h-2/3">
             <InfoDiv toggleSuccessBox={ toggleSuccessBox } handleEmailChange={ handleEmailChange } />
           </div>
-          <div className="w-1/2 h-full">
+          <div className="sm:w-1/2 sm:h-full w-full h-1/3">
             <ImgDiv />
           </div>
         </div>

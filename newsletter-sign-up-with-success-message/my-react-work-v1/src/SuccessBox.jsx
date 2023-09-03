@@ -6,14 +6,14 @@ function SuccessBox({ toggleSuccessBox, email }) {
 
     return (
         <>
-            <div className="w-[420px] h-[420px] bg-theme-white rounded-[30px]">
-                <div className="mx-12 my-8">
+            <div className="sm:w-[420px] sm:h-[420px] w-full h-full bg-theme-white sm:rounded-[30px]">
+                <div className="mx-12 sm:my-10 my-28">
                     <img
                         src={SuccessCheck}
                         alt="success_check_icon"
-                        className="w-12 h-12 mb-8" />
+                        className="w-12 h-12 mb-7" />
                     <h2 className="text-5xl text-theme-dark-slate-grey font-bold mb-5">Thanks for subscribing!</h2>
-                    <p className="text-sm text-theme-dark-slate-grey mb-8">A confirmation email has been sent to
+                    <p className="text-sm text-theme-dark-slate-grey sm:mb-8 mb-32">A confirmation email has been sent to
                         <span className="font-bold"> {email}</span>.
                         Please open it and click the button inside to confirm your subscription.</p>
                     <button

@@ -26,7 +26,7 @@ function InfoDiv({ toggleSuccessBox, handleEmailChange }) {
     return (
         <>
             <div className="w-full h-full flex flex-col justify-center">
-                <div className="ml-8 flex flex-col">
+                <div className="sm:ml-8 mx-4 flex flex-col">
                     <h1 className="text-5xl font-bold text-theme-dark-slate-grey mb-5">Stay updated!</h1>
                     <p className="text-theme-dark-slate-grey mb-5"> Join 60,000+ product managers receiving monthly updates on:</p>
                     <p className="text-theme-dark-slate-grey flex items-center mb-2">

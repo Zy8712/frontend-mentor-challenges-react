@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <main className="w-full h-full flex flex-col justify-center items-center m-0">
+      <main className={`w-full h-full flex flex-col justify-center md:items-center m-0 ${showContainer ? 'items-start' : 'items-center' }`}>
         {showContainer ? (
           <Container toggleSuccessBox={ toggleSuccessBox } handleEmailChange={ handleEmailChange } />
         ) : (
