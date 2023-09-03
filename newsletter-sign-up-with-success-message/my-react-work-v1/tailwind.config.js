@@ -13,6 +13,9 @@ export default {
         'theme-charcoal-grey': 'hsl(235, 18%, 26%)',
         'theme-grey': 'hsl(231, 7%, 60%)',
         'theme-white': 'hsl(0, 0%, 100%)',
+
+        'custom-red': 'rgba(238,77,110,255)',
+        'custom-orange': 'rgba(255,106,58,255)',
       },
       fontFamily: {
         'theme-roboto': ['"Roboto"', 'sans-serif'], 
