@@ -16,6 +16,8 @@ export default {
 
         'custom-red': 'rgba(238,77,110,255)',
         'custom-orange': 'rgba(255,106,58,255)',
+
+        'translucent-red': 'rgba(255,232,230,255)',
       },
       fontFamily: {
         'theme-roboto': ['"Roboto"', 'sans-serif'], 

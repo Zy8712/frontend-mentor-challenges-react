@@ -50,7 +50,7 @@ function InfoDiv({ toggleSuccessBox, handleEmailChange }) {
                         type="email"
                         name="email"
                         placeholder="email@company.com"
-                        className={`border-theme-grey border-[1px] border-solid rounded-md mb-6 mt-2 pl-6 py-[14px] ${!isEmailValid ? '!border-theme-tomato text-theme-tomato' : ''}`}
+                        className={`border-theme-grey border-[1px] border-solid rounded-md mb-6 mt-2 pl-6 py-[14px] ${!isEmailValid ? '!border-theme-tomato text-theme-tomato bg-translucent-red' : ''}`}
                         value={email}
                         onChange={handleInputChange} />
                     <button
