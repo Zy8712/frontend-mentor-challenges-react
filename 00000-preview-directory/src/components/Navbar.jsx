@@ -10,7 +10,15 @@ const Navbar = () => {
           Home
         </Link>
         <div className="space-x-4">
-
+          <Link to="/single-price-grid-component" className="text-white">
+            PriceGrid
+          </Link>
+          <Link to="/qr-code-component" className="text-white">
+            QRCode
+          </Link>
+          <Link to="/newsletter-sign-up-with-success-message" className="text-white">
+            NewsletterSignUp
+          </Link>
         </div>
       </div>
 

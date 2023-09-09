@@ -1,0 +1,15 @@
+
+:root{
+    --theme-grayish-blue: hsl(208, 11%, 55%);
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    /*    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #a520ca), color-stop(1, var(--theme-pink)));*/
+    background-color: var(--theme-grayish-blue);
+    border-radius: 10px;
+}
