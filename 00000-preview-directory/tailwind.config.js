@@ -10,6 +10,7 @@ export default {
         'navbar-gradient-colour-1': '#764BA2',
         'navbar-gradient-colour-2': '#667EEA',
 
+        /**Price Grid */
         'price-grid-theme-cyan': 'hsl(179, 62%, 43%)',
         'price-grid-theme-bright-yellow': 'hsl(71, 73%, 54%)',
 
@@ -35,6 +36,7 @@ export default {
         'newsletter-sign-up-theme-roboto': ['"Roboto"', 'sans-serif'], 
       },
       backgroundImage: {
+        /**Newsletter */
         'desktop-image': "url('./src/pages/newsletter-sign-up-with-success-message-directory-ver/assets/illustration-sign-up-desktop.svg')",
         'mobile-image': "url('./src/pages/newsletter-sign-up-with-success-message-directory-ver/assets/illustration-sign-up-mobile.svg')",
       },
