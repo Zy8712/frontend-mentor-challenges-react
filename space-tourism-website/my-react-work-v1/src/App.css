@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+h1{
+    font-family: var(--font-theme-bellefair);
+    font-size: 150px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: var(--font-theme-bellefair);
+    font-size: 100px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: var(--font-theme-bellefair);
+    font-size: 56px;
+    font-weight: 400;
+}
+
+h4{
+    font-family: var(--font-theme-bellefair);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h5{
+    font-family: var(--font-theme-barlow-condensed);
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5{
+    text-transform: uppercase;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    font-family: var(--font-theme-barlow-condensed);
+    color: var(--theme-white);
+
+    a{
+        color: var(--theme-light-blue);
+    }
+}
+
+.subheading-1{
+    font-family: var(--font-theme-bellefair);
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.subheading-2{
+    font-family: var(--font-theme-barlow-condensed);
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    text-transform: uppercase;
+}
+
+.subnav-text{
+    font-family: var(--font-theme-barlow-condensed);
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
