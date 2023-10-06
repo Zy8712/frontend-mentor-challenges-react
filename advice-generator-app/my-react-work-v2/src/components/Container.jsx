@@ -46,14 +46,14 @@ function Container() {
     return (
         <>
             <div className="w-[520px] h-80 bg-dark-grayish-blue rounded-2xl flex flex-col justify-center items-center">
-                <div className="block h-full mt-6 relative">
+                <div className="flex flex-col items-center h-full mt-6 mr-6 ml-6 relative">
                     <h2 className="text-xs text-neon-green tracking-[2px] mt-3 uppercase advice-header-custom">Advice #{adviceID}</h2>
                     <h1 className="h-1/2 text-2xl text-light-cyan mt-5 mb-5 advice-quote-custom">"{adviceText}"</h1>
                     <picture>
                         <source media="(max-width:420px)" srcSet={pattern_mobile_divider} />
                         <img src={pattern_desktop_divider} alt="divider_img" />
                     </picture>
-                    <DiceButton handleDiceButtonClick={handleDiceButtonClick} disabled={isButtonDisabled} />
+                    <DiceButton handleDiceButtonClick={handleDiceButtonClick} isButtonDisabled={isButtonDisabled} />
                 </div>
             </div>
         </>

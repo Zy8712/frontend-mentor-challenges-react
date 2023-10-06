@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import diceIcon from "../assets/icon-dice.svg";
 import { motion } from "framer-motion";
 
-function DiceButton({ handleDiceButtonClick }) {
+function DiceButton({ handleDiceButtonClick, isButtonDisabled }) {
   const [isRotated, setIsRotated] = useState(false);
 
   const handleButtonClick = () => {
@@ -27,8 +27,9 @@ function DiceButton({ handleDiceButtonClick }) {
       <div className="w-full absolute -bottom-8 flex justify-center">
         <motion.button 
           id="random-advice-button" 
-          className={`flex flex-col justify-center items-center rounded-full p-5 border-none bg-neon-green hover:shadow-random-button-shadow ${isRotated ? 'rotated' : ''}`}
+          className={`flex flex-col justify-center items-center rounded-full p-5 border-none ${!isButtonDisabled ? 'bg-neon-green' : 'bg-grayish-blue'} ${isButtonDisabled? 'cursor-not-allowed' : '' } hover:shadow-random-button-shadow ${isRotated ? 'rotated' : ''}`}
           onClick={handleButtonClick}
+          disabled={isButtonDisabled}
           
           variants={buttonVariants}
           initial="initial"
