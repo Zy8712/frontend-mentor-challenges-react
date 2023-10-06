@@ -9,7 +9,6 @@ function Container() {
     const [isButtonDisabled, setIsButtonDisabled] = useState(false);
     const [adviceID, setAdviceID] = useState('');
     const [adviceText, setAdviceText] = useState('');
-    const diceIconRef = useRef(null);
 
     const generateAdvice = async () => {
         // ... advice generation logic ...
