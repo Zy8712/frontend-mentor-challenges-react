@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 
 import pattern_mobile_divider from "../assets/pattern-divider-mobile.svg";
 import pattern_desktop_divider from "../assets/pattern-divider-desktop.svg";
@@ -53,7 +53,7 @@ function Container() {
                         <source media="(max-width:420px)" srcSet={pattern_mobile_divider} />
                         <img src={pattern_desktop_divider} alt="divider_img" />
                     </picture>
-                    <DiceButton onClick={handleDiceButtonClick} disabled={isButtonDisabled} />
+                    <DiceButton handleDiceButtonClick={handleDiceButtonClick} disabled={isButtonDisabled} />
                 </div>
             </div>
         </>
